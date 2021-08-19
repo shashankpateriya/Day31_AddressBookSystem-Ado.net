@@ -30,6 +30,7 @@ namespace Day31_AddressBookSystem
                 this.connection.Close();
             }
         }
+        
         public bool AddContact(AddressBookModel model)
         {
             try
